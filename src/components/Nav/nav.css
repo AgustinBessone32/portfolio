@@ -1,0 +1,97 @@
+.content-all-navigation{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-title{
+    display: flex;
+    font-size: 20px;
+}
+
+.out{
+    color: #98FF98;
+}
+
+.in{
+    color: white;
+    padding: 0 10px;
+}
+
+.content-nav ul{
+    list-style: none;
+    margin: 0;
+    background: black;
+    padding: 20px 30px;
+}
+
+.content-nav li{
+    display: inline-block;
+    margin: 0;
+}
+
+.content-nav li a{
+    color: white;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.link::after{
+    content: '';
+    width: 0;
+    margin: 0px 15px;
+    display: block;
+    height: 3px;
+    background: #98FF98;
+    transition: width 2s;
+}
+
+.link:hover::after{
+    width: 100%;
+    transition: width 2s;
+}
+
+.burguer-menu{
+    display: none;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    right: 20px;
+    top: 24px;
+}
+
+@media screen and (max-width: 750px){
+    .content-all-navigation{
+        flex-direction: column;
+    }
+
+    .content-nav{
+        display: none;
+    }
+
+    .content-nav ul{
+        padding: 0;
+
+    }
+
+    .content-nav ul li{
+        margin-right: -3px;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .content-nav li a{
+        display: list-item;
+    }
+
+    .burguer-menu{
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav-title{
+        padding-left: 20px;
+    }
+
+}
