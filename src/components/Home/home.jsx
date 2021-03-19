@@ -1,6 +1,7 @@
 import React from 'react'
 import './home.css'
 import img from '../../img/fotovs.jpeg'
+import About from '../About/about'
 
 const Home = () => {
     return(

@@ -1,0 +1,36 @@
+.content-all-about{
+    font-family: 'Montserrat', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: #000000;
+    color: white
+   /* background: -webkit-linear-gradient(to right, rgba(73, 72, 72, 0.603), rgba(0, 0, 0, 0.719)), url('https://miro.medium.com/max/8000/1*Lyrhjupug-Z7bVN2cuJYxA.jpeg'); 
+    background: linear-gradient(to right, rgba(67, 67, 67, 0.781), rgba(0, 0, 0, 0.726)),url('https://miro.medium.com/max/8000/1*Lyrhjupug-Z7bVN2cuJYxA.jpeg') */ ; 
+}
+
+.title-me{
+    padding: 15px 0;
+    margin-top: -16px;
+    display: block;
+    font-size: 30px;
+    color: #ffffff;
+    border: 2px solid #98FF98
+}
+
+.about{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-me{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 750px){
+    .about{
+        flex-direction: column;
+        padding-top: 30px;
+    }
+}

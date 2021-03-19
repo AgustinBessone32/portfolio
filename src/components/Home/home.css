@@ -23,7 +23,7 @@
 }
 
 .me{
-    font-size: 26px;
+    font-size: 30px;
     color: white;
 }
 
@@ -48,5 +48,6 @@
 
     .me{
         padding: 0 8px;
+        font-size: 24px;
     }
 }
