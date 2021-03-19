@@ -1,0 +1,48 @@
+.content-all-home{
+    padding-top: 100px;
+    height: 90vh;
+    font-family: 'Anton', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: #000000;  
+    background: -webkit-linear-gradient(to right, rgba(73, 72, 72, 0.603), rgba(0, 0, 0, 0.719)), url('https://miro.medium.com/max/8000/1*Lyrhjupug-Z7bVN2cuJYxA.jpeg'); 
+    background: linear-gradient(to right, rgba(67, 67, 67, 0.781), rgba(0, 0, 0, 0.726)),url('https://miro.medium.com/max/8000/1*Lyrhjupug-Z7bVN2cuJYxA.jpeg') ; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-home{
+    width: 300px;
+    border-radius: 50%;
+}
+
+.press-content{
+    color: white;
+    padding-left: 20px;
+}
+
+.me{
+    font-size: 30px;
+    color: white;
+}
+
+.ab{
+    font-size: 40px;
+    color: #99FF98;
+}
+
+@media screen and (max-width: 500px){
+    .content-all-home{
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 100vh;
+        margin-left: -20px;
+    }
+
+    .img-home{
+        width: 190px;
+    }
+}

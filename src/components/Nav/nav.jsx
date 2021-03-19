@@ -28,7 +28,7 @@ const Nav = () => {
                     onClick={()=> burgMain(burg)}
                     className='burguer-menu'/>
 
-                <div id='nav' className='content-nav'>
+                <div id='nav' className='content-nav '>
                     <ul>
                         <li><a href='#' className='link'>HOME</a></li>
                         <li><a href='#' className='link'>SOBRE MI</a></li>
