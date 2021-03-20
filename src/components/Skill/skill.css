@@ -1,0 +1,18 @@
+.content-skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill{
+    font-size: 50px;
+    margin: 10px;
+    background-color: #293133;
+    padding: 13px;
+}
+
+.skill:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 2.3s;
+}

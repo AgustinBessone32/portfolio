@@ -6,6 +6,7 @@ import About from '../About/about'
 const Home = () => {
     return(
         <div className='content-all-home'>
+            <a name='home'></a>
             <div>
                  <img className='img-home' src={img}/>
             </div>

@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-around;
     position: fixed;
+    z-index: 2;
 }
 .nav-title{
     display: flex;
@@ -44,12 +45,12 @@
     display: block;
     height: 3px;
     background: #98FF98;
-    transition: width 2s;
+    transition: width 1.5s;
 }
 
 .link:hover::after{
     width: 100%;
-    transition: width 2s;
+    transition: width 1.5s;
 }
 
 .burguer-menu{
@@ -58,6 +59,7 @@
     font-size: 25px;
     position: absolute;
     top: 24px;
+  
 }
 
 @media screen and (max-width: 750px){

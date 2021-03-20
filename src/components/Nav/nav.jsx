@@ -30,8 +30,8 @@ const Nav = () => {
 
                 <div id='nav' className='content-nav '>
                     <ul>
-                        <li><a href='#' className='link'>HOME</a></li>
-                        <li><a href='#' className='link'>SOBRE MI</a></li>
+                        <li><a href='#home' className='link'>HOME</a></li>
+                        <li><a href='#sobre-mi' className='link'>SOBRE MI</a></li>
                         <li><a href='#' className='link'>PORTFOLIO</a></li>
                         <li><a href='#' className='link'>CONTACTO</a></li>
                     </ul>

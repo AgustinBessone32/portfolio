@@ -19,14 +19,21 @@
 }
 
 .about{
-    padding-top: 80px;
+    padding-top: 30px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    
 }
 
 .content-me{
     font-size: 20px;
 }
+
+.skill-me{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 @media screen and (max-width: 750px){
     .about{
