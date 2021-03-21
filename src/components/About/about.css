@@ -5,15 +5,14 @@
     background-position: center;
     background: #000000;
     color: white
-   /* background: -webkit-linear-gradient(to right, rgba(73, 72, 72, 0.603), rgba(0, 0, 0, 0.719)), url('https://miro.medium.com/max/8000/1*Lyrhjupug-Z7bVN2cuJYxA.jpeg'); 
-    background: linear-gradient(to right, rgba(67, 67, 67, 0.781), rgba(0, 0, 0, 0.726)),url('https://miro.medium.com/max/8000/1*Lyrhjupug-Z7bVN2cuJYxA.jpeg') */ ; 
+   
 }
 
 .title-me{
     padding: 15px 0;
     margin-top: -16px;
     display: block;
-    font-size: 30px;
+    font-size: 36px;
     color: #ffffff;
     border: 2px solid #98FF98
 }
@@ -26,12 +25,20 @@
 }
 
 .content-me{
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .skill-me{
     display: flex;
     flex-wrap: wrap;
+}
+
+.content-me .me{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 25px;
 }
 
 

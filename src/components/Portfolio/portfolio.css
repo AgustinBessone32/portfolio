@@ -1,0 +1,19 @@
+.content-all-port{
+    font-family: 'Montserrat', sans-serif;
+    background-size: cover;
+    padding-top: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: #000000;
+    color: white
+   
+}
+
+.title-port{
+    padding: 15px 0;
+    margin-top: -16px;
+    display: block;
+    font-size: 36px;
+    color: #ffffff;
+    border: 2px solid #98FF98
+}

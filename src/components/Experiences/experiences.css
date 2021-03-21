@@ -1,0 +1,86 @@
+.content-all-experiences{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+
+.experience{
+    width: 300px;
+    height: 450px;
+    margin: 30px;
+    background: url('../../img/bg1.jpg');
+    border-radius: 7px;
+}
+
+.experience:hover{
+    transform: translateY(-30px);
+    transition-duration: 2s;
+}
+
+
+.title-exp{
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.desc-exp{
+    padding: 10px ;
+}
+
+.tec-util{
+    padding: 10px;
+}
+
+.title-util{
+    border-bottom: 2px solid white;
+    padding:5px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+
+.btn-exp{
+    cursor: pointer;
+    border: 2px solid white;
+    color: white;
+    margin-left: 10px;
+    padding: 10px;
+    margin-bottom: 12px;
+    text-decoration: none;
+}
+
+.btn-exp:hover{
+    background: black;
+    color: white;
+    border: 2px solid black;
+    transition-duration: 1.4s;
+}
+
+.experience-2{
+    width: 300px;
+    height: 450px;
+    margin: 30px;
+    background: url('../../img/bg2.jpg');
+    border-radius: 7px;
+}
+
+.experience-2:hover{
+    transform: translateY(-30px);
+    transition-duration: 2s;
+}
+
+.experience-3{
+    width: 300px;
+    height: 450px;
+    margin: 30px;
+    background: url('../../img/bg3.jpg');
+    border-radius: 7px;
+}
+
+.experience-3:hover{
+    transform: translateY(-30px);
+    transition-duration: 2s;
+}

@@ -4,7 +4,7 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Nav = () => {
     const [burg , setBurg] = useState(true)
-    
+    const width= window.screen.width
     const burgMain = () => {
         if(burg === true) {
             document.getElementById('nav').style.display ='block'
@@ -30,10 +30,14 @@ const Nav = () => {
 
                 <div id='nav' className='content-nav '>
                     <ul>
-                        <li><a href='#home' className='link' onClick={()=>burgMain()}>HOME</a></li>
-                        <li><a href='#sobre-mi' className='link' onClick={()=>burgMain()}>SOBRE MI</a></li>
-                        <li><a href='#' className='link' onClick={()=>burgMain()}>PORTFOLIO</a></li>
-                        <li><a href='#' className='link' onClick={()=>burgMain()}>CONTACTO</a></li>
+                        <li><a href='#home' className='link'  
+                                onClick={()=> width < 700 && burgMain()}>HOME</a></li>
+                        <li><a href='#sobre-mi' className='link' 
+                                onClick={()=> width < 700 && burgMain()}>SOBRE MI</a></li>
+                        <li><a href='#portfolio' className='link' 
+                                onClick={()=> width < 700 && burgMain()}>PORTFOLIO</a></li>
+                        <li><a href='#' className='link' 
+                                onClick={()=> width < 700 && burgMain()}>CONTACTO</a></li>
                     </ul>
                 </div> 
                 
