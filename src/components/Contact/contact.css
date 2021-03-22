@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 40px;
+  
 }
 
 
@@ -59,4 +59,11 @@
 .smile{
     margin-bottom: -5px;
     color: transparent;
+}
+
+@media screen and (max-width: 500px){
+    .content-contact{
+        padding-left: -20px;
+        padding-right: 10px;
+    }
 }
