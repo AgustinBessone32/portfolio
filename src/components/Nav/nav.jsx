@@ -36,7 +36,7 @@ const Nav = () => {
                                 onClick={()=> width < 700 && burgMain()}>SOBRE MI</a></li>
                         <li><a href='#portfolio' className='link' 
                                 onClick={()=> width < 700 && burgMain()}>PORTFOLIO</a></li>
-                        <li><a href='#' className='link' 
+                        <li><a href='#contacto' className='link' 
                                 onClick={()=> width < 700 && burgMain()}>CONTACTO</a></li>
                     </ul>
                 </div> 

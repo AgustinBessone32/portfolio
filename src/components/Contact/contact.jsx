@@ -7,6 +7,7 @@ import CV from '../../img/CV.pdf';
 const Contact = ()=> {
     return(
         <div className='content-all-contact'>
+            <a name='contacto'></a>
             <p className='title-contact'>Contacto</p>
                 <div className='contacts'>
                     <div className='content-contact'>
@@ -26,7 +27,8 @@ const Contact = ()=> {
                             <a href={CV}
                                 download='CV Agustin Bessone.pdf'
                                 className='txt-contact'
-                                target='_blank'>-Descargar curriculum-</a>
+                                target='_blank'>- <FaRegSmileWink className='smile'/>
+                                Descarga mi CV<FaRegSmileWink className='smile'/> -</a>
                         </div>
                     </div>
 

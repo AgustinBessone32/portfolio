@@ -1,0 +1,15 @@
+.content-all-footer{
+    border-top: 1px solid #98FF98;
+    height: 80px;
+    font-family: 'Montserrat', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: #000000;
+    color: white
+   
+}
+
+.content-copy{
+    font-size: 15px;
+}
