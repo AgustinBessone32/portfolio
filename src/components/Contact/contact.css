@@ -1,0 +1,61 @@
+.content-all-contact{
+    font-family: 'Montserrat', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: #000000;
+    color: white;
+   
+}
+
+.content-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.txt-contact{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.title-contact{
+    padding: 15px 0;
+    margin-top: 0px;
+    display: block;
+    font-size: 36px;
+    color: #ffffff;
+    border: 2px solid #98FF98
+}
+
+.icn-contact{
+    font-size: 50px;
+    margin: 10px;
+    background-color: #293133;
+    padding: 13px;
+    margin-left: 20px;
+}
+
+.icn-contact:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 2.3s;
+}
+
+.contacts{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.smile{
+    margin-bottom: -5px;
+    color: transparent;
+}
