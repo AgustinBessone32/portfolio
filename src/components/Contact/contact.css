@@ -63,6 +63,6 @@
 
 @media screen and (max-width: 500px){
     .content-contact{
-        padding-left: -80px;
+        margin-left: -30px;
     }
 }
