@@ -84,3 +84,16 @@
     transform: translateY(-30px);
     transition-duration: 2s;
 }
+
+.experience-4{
+    width: 300px;
+    height: 450px;
+    margin: 30px;
+    background: url('../../img/bg4.jpg');
+    border-radius: 7px;
+}
+
+.experience-4:hover{
+    transform: translateY(-30px);
+    transition-duration: 2s;
+}
