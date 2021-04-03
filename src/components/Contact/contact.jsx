@@ -1,6 +1,6 @@
 import React from 'react'
 import './contact.css'
-import { FaGoogle , FaLinkedin , FaRegSmileWink } from "react-icons/fa";
+import { FaGithub, FaGoogle , FaLinkedin , FaRegSmileWink } from "react-icons/fa";
 import { BsPersonSquare } from "react-icons/bs";
 import CV from '../../img/CV.pdf'; 
 
@@ -23,6 +23,14 @@ const Contact = ()=> {
                                 <FaRegSmileWink className='smile'/>-</a>
                     </div>
                     <div className='content-contact'>
+                            <FaGithub className='icn-contact' />
+                            <a href='https://github.com/AgustinBessone32' 
+                                className='txt-contact'
+                                target='_blank'> -<FaRegSmileWink className='smile'/>
+                                Te dejo  mi   GitHub 
+                                <FaRegSmileWink className='smile'/>-</a>
+                    </div>
+                    <div className='content-contact'>
                             <BsPersonSquare className='icn-contact' /> 
                             <a href={CV}
                                 download='CV Agustin Bessone.pdf'
@@ -30,6 +38,7 @@ const Contact = ()=> {
                                 target='_blank'>- <FaRegSmileWink className='smile'/>
                                 Descarga mi CV<FaRegSmileWink className='smile'/> -</a>
                     </div>
+
                 </div>
 
         </div>
