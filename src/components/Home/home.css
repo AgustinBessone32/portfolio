@@ -6,8 +6,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background: #000000;  
-    background: -webkit-linear-gradient(to right, rgba(73, 72, 72, 0.603), rgba(0, 0, 0, 0.719)), url('../../img/bgg1.jpg'); 
-    background: linear-gradient(to right, rgba(67, 67, 67, 0.781), rgba(0, 0, 0, 0.726)),url('../../img/bgg1.jpg') ; 
+    background: url('../../img/bgg1.jpg'); 
+ 
     display: flex;
     justify-content: center;
     align-items: center;

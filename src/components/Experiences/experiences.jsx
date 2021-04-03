@@ -66,15 +66,6 @@ const Experiences = () => {
                 - Para almacenar los datos se utilizó SEQUELIZE</p>
                 <a className='btn-exp' target='_blank' href='https://github.com/AgustinBessone32/te-fio'>
                     CÓDIGO</a>
-
-                <p className='title-exp'><BiWallet /> Inro </p>
-                <p className='desc-exp'>Aplicacion grupal la cual tiene como ojetivo ser una billetera virtual
-                para poder hacer compras, recargar saldo, etre otras cosas</p>
-                <p className='title-util'>TECNOLOGIAS UTILIZADAS</p>
-                <p className='tec-util'>- Para visualizar los datos se utilizo REACT NATIVE, CSS, MATERIAL UI <br/>
-                - Para almacenar los datos se utilizó MONGO DB</p>
-                <a className='btn-exp' target='_blank' href='https://github.com/danieltkach/henry-bank'>
-                    CÓDIGO</a>
             </div>
 
 
