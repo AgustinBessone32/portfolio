@@ -23,7 +23,7 @@
 .title-exp{
     font-size: 30px;
     font-family: 'Bebas Neue', cursive;
-
+    margin-bottom: -10px;
 }
 
 .desc-exp{
@@ -81,6 +81,32 @@
 }
 
 .experience-3:hover{
+    transform: translateY(-30px);
+    transition-duration: 2s;
+}
+
+.experience-4{
+    width: 300px;
+    height: 450px;
+    margin: 30px;
+    background: url('../../img/bg4.jpg');
+    border-radius: 7px;
+}
+
+.experience-4:hover{
+    transform: translateY(-30px);
+    transition-duration: 2s;
+}
+
+.experience-5{
+    width: 300px;
+    height: 450px;
+    margin: 30px;
+    background: url('../../img/bg5.jpg');
+    border-radius: 7px;
+}
+
+.experience-5:hover{
     transform: translateY(-30px);
     transition-duration: 2s;
 }

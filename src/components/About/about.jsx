@@ -12,11 +12,15 @@ const About = () =>{
                 <div className='about'>
                     <div className='content-me'>
                             <p className='content-me'>Quien soy?</p>
-                            <p className='me'>Soy una persona apasionada por el desarrollo. Me considero una persona responsable, buen compañero 
-                                con ganas de aprender y aportar mis conocimientos a un equipo. 
+                            <p className='me'>Soy una persona apasionada por el desarrollo, con ganas de aprender y poder aportar todos mis conocimientos
+                                a un equipo. Soy muy responsable a la hora de realizar un trabajo, siempre ofreciendo mi mayor productividad. 
+                            </p>
+                            <p className='me'>Estoy abierto a recibir tanto criticas como ayuda cuando considero que la necesito, me gusta 
+                                trabajar en equipo ya que considero que  permite dividir el trabajo y multiplicar los resultados.
                             </p>
                             <p className='me'>
-                                Estoy en constante aprendizaje ya que considero que para este rubro hay que estar en constante aprendizaje.
+                                Cuento con gran capacidad de actualizar los conocimientos constantemente ya que para el mundo de la tecnología
+                                es necesario estar aprendiendo algo nuevo todo el tiempo.
                             </p>
                     </div>
                     <div className='skills-me'>
