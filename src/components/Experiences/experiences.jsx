@@ -1,6 +1,6 @@
 import React from 'react'
 import './experiences.css'
-import { BiCameraMovie ,BiWallet } from 'react-icons/bi';
+import { BiCameraMovie ,BiWallet , BiWalletAlt } from 'react-icons/bi';
 import {TiWeatherCloudy} from 'react-icons/ti';
 import {BsMusicNoteBeamed} from 'react-icons/bs'
 import {SiCashapp} from 'react-icons/si'
