@@ -13,8 +13,7 @@ const Experiences = () => {
                 <p className='desc-exp'>Aplicacion web que permite buscar películas y ver detalles de las mismas como su 
                 calificación y descripción, también permite agregarlas a favoritos.</p>
                 <p className='title-util'>TECNOLOGIAS UTILIZADAS</p>
-                <p className='tec-util'>- Para visualizar los datos se utilizo REACT y CSS. FIREBASE para la autenticación.<br/>
-                - Para almacenar los datos se utilizó MONGODB ATLAS y MONGOOSE</p>
+                <p className='tec-util'>- REACT, CSS, FIREBASE, HTML, API(The movie db), MONGODB, MONGOOSE.</p>
                 <a className='btn-exp' href='https://github.com/AgustinBessone32/total-pelis' target='_blank'>
                     CÓDIGO</a>
                 <a className='btn-exp' href='https://agustinbessone32.github.io/total-pelis/' target='_blank'>
@@ -26,8 +25,7 @@ const Experiences = () => {
                 <p className='desc-exp'>Aplicacion web que permite consultar el clima de distintas ciudades asi como detalles
                 del mismo como el viento, la humedad, entre otros.</p>
                 <p className='title-util'>TECNOLOGIAS UTILIZADAS</p>
-                <p className='tec-util'>- Para visualizar los datos se utilizo REACT y CSS.<br/>
-                - Los datos climaticos son obtenidos de una API (Open Weather)</p>
+                <p className='tec-util'>- REACT, CSS, HTML, API (Open Weather), BOOTSTRAP.</p>
                 <a className='btn-exp' target='_blank' href='https://github.com/AgustinBessone32/whater-app'>
                     CÓDIGO</a>
                 <a className='btn-exp' target='_blank' href='https://agustinbessone32.github.io/whater-app/#/'>
@@ -39,8 +37,7 @@ const Experiences = () => {
                 <p className='desc-exp'>E-commerce grupal en el cual se hace la venta de productos musicales
                 , incluye acciones como el checkout, administracion de usuario y carrito, entre otras</p>
                 <p className='title-util'>TECNOLOGIAS UTILIZADAS</p>
-                <p className='tec-util'>- Para visualizar los datos se utilizo REACT,CSS. FIREBASE para la autenticacion<br/>
-                - Para almacenar los datos se utilizó SEQUELIZE</p>
+                <p className='tec-util'>- REACT, REDUX, CSS, HTML, BOOTSTRAP, FIREBASE, SEQUELIZE, POSTGRESQL.</p>
                 <a className='btn-exp' target='_blank' href='https://github.com/danieltkach/BoomSounds'>
                     CÓDIGO</a>
             </div>
@@ -50,8 +47,7 @@ const Experiences = () => {
                 <p className='desc-exp'>Aplicación web que le permite al comerciante poder tener un historial del detalle de los clientes y sus
                 deudas para con el comercio adherido.</p>
                 <p className='title-util'>TECNOLOGIAS UTILIZADAS</p>
-                <p className='tec-util'>- Para visualizar los datos se utilizo REACT,CSS. FIREBASE para la autenticacion<br/>
-                - Para almacenar los datos se utilizó SEQUELIZE</p>
+                <p className='tec-util'>- REACT, REDUX, CSS, HTML, MONGODB, MONGOOSE.</p>
                 <a className='btn-exp' target='_blank' href='https://github.com/AgustinBessone32/te-fio'>
                     CÓDIGO</a>
 
@@ -62,9 +58,8 @@ const Experiences = () => {
                 <p className='desc-exp'>Aplicacion de celular el cual cumplia la funcion de billetera virtual, la misma
                 permitía realizar recargas de saldo, compras, transferencias, entre otras.</p>
                 <p className='title-util'>TECNOLOGIAS UTILIZADAS</p>
-                <p className='tec-util'>- Para visualizar los datos se utilizo REACT,CSS. FIREBASE para la autenticacion<br/>
-                - Para almacenar los datos se utilizó SEQUELIZE</p>
-                <a className='btn-exp' target='_blank' href='https://github.com/AgustinBessone32/te-fio'>
+                <p className='tec-util'>- REACT NATIVE, CSS, MATERIAL-UI, REDUX,  MONGODB, MONGOOSE.</p>
+                <a className='btn-exp' target='_blank' href='https://github.com/danieltkach/henry-bank'>
                     CÓDIGO</a>
             </div>
 
