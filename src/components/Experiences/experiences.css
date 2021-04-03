@@ -96,6 +96,7 @@
 .experience-4:hover{
     transform: translateY(-30px);
     transition-duration: 2s;
+<<<<<<< HEAD
 }
 
 .experience-5{
@@ -110,3 +111,6 @@
     transform: translateY(-30px);
     transition-duration: 2s;
 }
+=======
+}
+>>>>>>> bfb7cc17f400e0838c36fbba7ac162e80f30b4fd

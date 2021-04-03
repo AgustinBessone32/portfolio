@@ -1,6 +1,10 @@
 import React from 'react'
 import './experiences.css'
+<<<<<<< HEAD
 import { BiCameraMovie, BiWalletAlt } from 'react-icons/bi';
+=======
+import { BiCameraMovie ,BiWallet } from 'react-icons/bi';
+>>>>>>> bfb7cc17f400e0838c36fbba7ac162e80f30b4fd
 import {TiWeatherCloudy} from 'react-icons/ti';
 import {BsMusicNoteBeamed} from 'react-icons/bs'
 import {SiCashapp} from 'react-icons/si'
@@ -35,9 +39,15 @@ const Experiences = () => {
             </div>
 
             <div className='experience-3'>
+<<<<<<< HEAD
                 <p className='title-exp'><BsMusicNoteBeamed className='icn-exp' /> BoomSounds</p>
                 <p className='desc-exp'>E-commerce grupal en el cual se realiza la venta de productos musicales
                 , incluye acciones como el checkout, administracion de usuario y carrito, entre otras.</p>
+=======
+                <p className='title-exp'><BsMusicNoteBeamed />  BoomSounds</p>
+                <p className='desc-exp'>E-commerce grupal en el cual se hace la venta de productos musicales
+                , incluye acciones como el checkout, administracion de usuario y carrito, entre otras</p>
+>>>>>>> bfb7cc17f400e0838c36fbba7ac162e80f30b4fd
                 <p className='title-util'>TECNOLOGIAS UTILIZADAS</p>
                 <p className='tec-util'>- Para visualizar los datos se utilizo REACT,CSS. FIREBASE para la autenticacion<br/>
                 - Para almacenar los datos se utilizó SEQUELIZE</p>
@@ -46,6 +56,7 @@ const Experiences = () => {
             </div>
 
             <div className='experience-4'>
+<<<<<<< HEAD
                 <p className='title-exp'><SiCashapp className='icn-exp'/> Te-Fio</p>
                 <p className='desc-exp'>Aplicación web que le permite al comerciante poder tener un historial del detalle de los clientes y sus
                 deudas para con el comercio adherido.</p>
@@ -67,6 +78,16 @@ const Experiences = () => {
                 <a className='btn-exp' target='_blank' href='https://github.com/AgustinBessone32/te-fio'>
                     CÓDIGO</a>
 
+=======
+                <p className='title-exp'><BiWallet /> Inro </p>
+                <p className='desc-exp'>Aplicacion grupal la cual tiene como ojetivo ser una billetera virtual
+                para poder hacer compras, recargar saldo, etre otras cosas</p>
+                <p className='title-util'>TECNOLOGIAS UTILIZADAS</p>
+                <p className='tec-util'>- Para visualizar los datos se utilizo REACT NATIVE, CSS, MATERIAL UI <br/>
+                - Para almacenar los datos se utilizó MONGO DB</p>
+                <a className='btn-exp' target='_blank' href='https://github.com/danieltkach/henry-bank'>
+                    CÓDIGO</a>
+>>>>>>> bfb7cc17f400e0838c36fbba7ac162e80f30b4fd
             </div>
 
 
