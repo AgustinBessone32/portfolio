@@ -50,7 +50,8 @@ const Experiences = () => {
                 <p className='tec-util'>- REACT, REDUX, CSS, HTML, MONGODB, MONGOOSE.</p>
                 <a className='btn-exp' target='_blank' href='https://github.com/AgustinBessone32/te-fio'>
                     CÓDIGO</a>
-
+                <a className='btn-exp' target='_blank' href='https://agustinbessone32.github.io/te-fio/'>
+                    WEB</a>
             </div>
 
             <div className='experience-5'>
