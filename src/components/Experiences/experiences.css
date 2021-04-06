@@ -11,6 +11,7 @@
     height: 450px;
     margin: 30px;
     background: url('../../img/bg1.jpg');
+    background-color: rgba(0,0,0, 0.9);
     border-radius: 7px;
 }
 
@@ -65,6 +66,7 @@
     margin: 30px;
     background: url('../../img/bg2.jpg');
     border-radius: 7px;
+    background-color: rgba(0,0,0, 0.9);
 }
 
 .experience-2:hover{
@@ -78,6 +80,7 @@
     margin: 30px;
     background: url('../../img/bg3.jpg');
     border-radius: 7px;
+    background-color: rgba(0,0,0, 0.9);
 }
 
 .experience-3:hover{
@@ -91,6 +94,7 @@
     margin: 30px;
     background: url('../../img/bg4.jpg');
     border-radius: 7px;
+    background-color: rgba(0,0,0, 0.9);
 }
 
 .experience-4:hover{
@@ -104,6 +108,7 @@
     margin: 30px;
     background: url('../../img/bg5.jpg');
     border-radius: 7px;
+    background-color: rgba(0,0,0, 0.9);
 }
 
 .experience-5:hover{
