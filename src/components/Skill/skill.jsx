@@ -3,7 +3,7 @@ import './skill.css'
 import { FaReact ,FaNodeJs, FaSass ,FaGitAlt } from 'react-icons/fa';
 import { SiRedux , SiFirebase, SiJavascript 
         ,SiBootstrap, SiMongodb ,SiPostgresql,
-        SiHtml5, SiCss3} from 'react-icons/si';
+        SiHtml5, SiCss3, SiMaterialUi} from 'react-icons/si';
 import {DiScrum} from 'react-icons/di'
 
 
@@ -20,10 +20,11 @@ const Skill = () => {
             <SiPostgresql className='skill' title='POSTGRESQL'/>
             <SiHtml5 className='skill' title='HTML5'/>
             <SiCss3 className='skill' title='CSS3'/>
+            <SiMaterialUi className='skill' title='MATERIAL UI'/>
             <FaSass className='skill' title='SASS'/>
             <FaGitAlt className='skill' title='GIT'/>
             <DiScrum className='skill' title='SCRUM'/>
-
+            
         </div>
     )
 }
