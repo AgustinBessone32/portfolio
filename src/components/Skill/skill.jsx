@@ -5,7 +5,7 @@ import { SiRedux , SiFirebase, SiJavascript
         ,SiBootstrap, SiMongodb ,SiPostgresql,
         SiHtml5, SiCss3, SiMaterialUi, SiTailwindcss} from 'react-icons/si';
 import {DiScrum} from 'react-icons/di'
-import {IoLogoVue} from 'react-icons/io'
+import {IoLogoVue} from 'react-icons/io5'
 
 
 const Skill = () => {
