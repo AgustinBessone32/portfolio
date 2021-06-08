@@ -1,19 +1,23 @@
 import React from 'react'
 import './skill.css'
-import { FaReact ,FaNodeJs, FaSass ,FaGitAlt } from 'react-icons/fa';
+import { FaReact ,FaNodeJs, FaSass ,FaGitAlt, FaAngular } from 'react-icons/fa';
 import { SiRedux , SiFirebase, SiJavascript 
         ,SiBootstrap, SiMongodb ,SiPostgresql,
-        SiHtml5, SiCss3, SiMaterialUi} from 'react-icons/si';
+        SiHtml5, SiCss3, SiMaterialUi, SiTailwindcss} from 'react-icons/si';
 import {DiScrum} from 'react-icons/di'
+import {IoLogoVue} from 'react-icons/io'
 
 
 const Skill = () => {
     return(
         <div className='content-skills animate__animated animate__fadeInLeft animate__delay-5s'>
             <FaReact className='skill' title='REACT'/> 
+            <FaAngular className='skill' title='ANGULAR'/> 
             <SiRedux className='skill' title='REDUX'/>
+            <IoLogoVue className='skill' title='VUE' />
             <SiJavascript className='skill' title='JAVASCRIPT'/>
             <SiBootstrap className='skill' title='BOOTSTRAP'/>
+            <SiTailwindcss className='skill' title='TAILWIND'/>
             <FaNodeJs className='skill' title='NODE.JS'/>
             <SiFirebase className='skill' title='FIREBASE'/>
             <SiMongodb className='skill' title='MONGODB'/>
@@ -24,7 +28,7 @@ const Skill = () => {
             <FaSass className='skill' title='SASS'/>
             <FaGitAlt className='skill' title='GIT'/>
             <DiScrum className='skill' title='SCRUM'/>
-            
+
         </div>
     )
 }
