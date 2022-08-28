@@ -21,6 +21,7 @@ const Experiences = () => {
             </div>
 
             <div data-aos="flip-right" data-aos-duration="1000" className='experience-2'>
+            
                 <p className='title-exp'><TiWeatherCloudy className='icn-exp' /> Weater App</p>
                 <p className='desc-exp'>Aplicacion web que permite consultar el clima de distintas ciudades asi como detalles
                     del mismo como el viento, la humedad, entre otros.</p>

@@ -9,7 +9,7 @@ const Contact = () => {
         <div className='content-all-contact'>
             <a name='contacto'></a>
             <p className='title-contact'>Contacto</p>
-            <div className='contacts' data-aos="fade-left" data-aos-duration="1000">
+            <div className='contacts' data-aos="fade-down" data-aos-duration="1000">
                 <div className='content-contact'>
                     <FaGoogle className='icn-contact' />
                     <p className='txt-contact'>bessone98@gmail.com</p>

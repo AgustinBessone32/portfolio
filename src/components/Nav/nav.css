@@ -38,6 +38,7 @@
     text-decoration: none;
 }
 
+
 .link::after{
     content: '';
     width: 0;
@@ -61,6 +62,8 @@
     top: 24px;
   
 }
+
+
 
 @media screen and (max-width: 750px){
     .content-all-navigation{
