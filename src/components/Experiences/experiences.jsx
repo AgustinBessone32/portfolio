@@ -15,7 +15,7 @@ const Experiences = () => {
                 <p className='desc-exp'>Web hecha para el Hostal Xantico, la misma permite ver los distintos tipos de habitaciones,
                 servicios y permite realizar una reserva.</p>
                 <p className='title-util'>TECNOLOGIAS UTILIZADAS</p>
-                <p className='tec-util'>- REACT, CSS, FIREBASE, MATERIAL UI, FIREBASE</p>
+                <p className='tec-util'>- REACT, CSS, FIREBASE, MATERIAL UI</p>
                 <a className='btn-exp' href='https://xanticohostal.com/' target='_blank'>
                     WEB</a>
             </div>
