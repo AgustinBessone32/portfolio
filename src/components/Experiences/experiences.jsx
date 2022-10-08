@@ -1,13 +1,25 @@
-import React from 'react'
-import './experiences.css'
-import { BiCameraMovie, BiWallet, BiWalletAlt } from 'react-icons/bi';
+import React from 'react';
+import { BiCameraMovie, BiWalletAlt } from 'react-icons/bi';
+import { BsMusicNoteBeamed } from 'react-icons/bs';
+import { FaHotel } from 'react-icons/fa';
+import { SiCashapp } from 'react-icons/si';
 import { TiWeatherCloudy } from 'react-icons/ti';
-import { BsMusicNoteBeamed } from 'react-icons/bs'
-import { SiCashapp } from 'react-icons/si'
+import './experiences.css';
 
 const Experiences = () => {
     return (
         <div className='content-all-experiences'>
+
+            <div className='experience-0' data-aos="flip-left" data-aos-duration="1000" >
+                <p className='title-exp'><FaHotel className='icn-exp' /> Xantico Hostal</p>
+                <p className='desc-exp'>Web hecha para el Hostal Xantico, la misma permite ver los distintos tipos de habitaciones,
+                servicios y permite realizar una reserva.</p>
+                <p className='title-util'>TECNOLOGIAS UTILIZADAS</p>
+                <p className='tec-util'>- REACT, CSS, FIREBASE, MATERIAL UI, FIREBASE</p>
+                <a className='btn-exp' href='https://xanticohostal.com/' target='_blank'>
+                    WEB</a>
+            </div>
+            
             <div className='experience' data-aos="flip-left" data-aos-duration="1000" >
                 <p className='title-exp'><BiCameraMovie className='icn-exp' /> Total Pelis</p>
                 <p className='desc-exp'>Aplicacion web que permite buscar películas y ver detalles de las mismas como su

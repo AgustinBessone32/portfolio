@@ -60,6 +60,21 @@
     transition-duration: 1.4s;
 }
 
+.experience-0{
+    width: 300px;
+    height: 450px;
+    margin: 30px;
+    background: url('../../img/bg0.jpg');
+    border-radius: 7px;
+    background-color: rgba(0,0,0, 0.9);
+}
+
+.experience-0:hover{
+    transform: translateY(-30px);
+    transition-duration: 2s;
+}
+
+
 .experience-2{
     width: 300px;
     height: 450px;

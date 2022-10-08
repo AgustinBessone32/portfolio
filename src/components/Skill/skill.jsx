@@ -1,13 +1,9 @@
-import React from 'react'
-import './skill.css'
-import { FaReact, FaNodeJs, FaSass, FaGitAlt, FaAngular } from 'react-icons/fa';
-import {
-    SiRedux, SiFirebase, SiJavascript
-    , SiBootstrap, SiMongodb, SiPostgresql,
-    SiHtml5, SiCss3, SiMaterialUi, SiTailwindcss
-} from 'react-icons/si';
-import { DiScrum } from 'react-icons/di'
-import { IoLogoVue } from 'react-icons/io5'
+import React from 'react';
+import { DiScrum } from 'react-icons/di';
+import { FaAngular, FaAws, FaGitAlt, FaNodeJs, FaReact, FaSass } from 'react-icons/fa';
+import { IoLogoVue } from 'react-icons/io5';
+import { SiBootstrap, SiCss3, SiFirebase, SiHtml5, SiJavascript, SiMongodb, SiPostgresql, SiRedux, SiTailwindcss } from 'react-icons/si';
+import './skill.css';
 
 
 const Skill = () => {
@@ -17,6 +13,7 @@ const Skill = () => {
             <FaAngular className='skill' title='ANGULAR' />
             <SiRedux className='skill' title='REDUX' />
             <IoLogoVue className='skill' title='VUE' />
+            <FaAws className='skill' title='AWS'/>
             <SiJavascript className='skill' title='JAVASCRIPT' />
             <SiBootstrap className='skill' title='BOOTSTRAP' />
             <SiTailwindcss className='skill' title='TAILWIND' />
